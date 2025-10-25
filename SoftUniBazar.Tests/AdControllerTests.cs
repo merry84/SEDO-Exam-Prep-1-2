@@ -18,7 +18,7 @@ namespace SoftUniBazar.Tests
     {
         private BazarDbContext _dbContext;
         private AdController _controller;
-
+//test
         [SetUp]
         public void Setup()
         {
