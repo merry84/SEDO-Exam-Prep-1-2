@@ -7,6 +7,7 @@ pipeline {
                 checkout scm
             }
         }
+        
         stage('Restore') {
             steps {
                 bat 'dotnet restore'
